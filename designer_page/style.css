@@ -1,0 +1,155 @@
+*{
+    font-family: Raleway, sans-serif;
+}
+::selection {
+    background: #070707;
+    color: #fff;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.nav-wrapper{
+    margin: 0 auto;
+    width: 950px;
+    background-color: #fff;
+    z-index: inherit;
+}
+ul, .author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-size: 18px;
+    line-height: 22px;
+    list-style-type: none;
+}
+li a{
+    color: #828282;
+}
+a::after, a:hover{
+    color: #070707;
+}
+hr{
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.author{
+    align-items: baseline;
+}
+.name-author{
+    font-weight: bolder;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+.photo-author{
+    margin-top: 50px;
+}
+.lang{
+    transform: rotate(-90deg) translate(0, 20px); 
+    z-index: 1;
+}
+header{
+    width: 950px;
+    height: 768px;
+    margin: 0 auto;
+}
+.wrapper-info h1{
+    padding-bottom: 25px;
+}
+.author-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 506px;
+    background-color: #F6F6F6;
+}
+.head-units{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+.p-text{
+    margin: 30px 0;
+    text-align: center;
+}
+.wrapper-info{
+    width: 485px;
+}
+.skills{
+    text-align: center;
+    height: 610px;
+}
+.skills-wrapper{
+    padding-top: 50px;
+    width: 960px;
+    margin: 0 auto;
+}
+.skills-wrapper p{
+    margin: 100px 0;  
+}
+.programs{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+}
+.portfolio{
+    background-color: #F6F6F6;
+    height: 2253px;
+}
+.portfolio-wrapper{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-wrapper h1{
+    margin: 70px 0;
+}
+.portfolio-href{
+    margin: 70px 0;
+    text-decoration: underline;
+    color: #070707;
+}
+.footer-wrapper{
+    margin: 0 auto;
+}
+.social-networks{
+    width: 345px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.p-social-net{
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+.button{
+    display: flex;
+}
+button{
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #070707;
+    color: #fff;
+    margin: 0 auto 50px auto;
+    cursor: pointer; 
+}
